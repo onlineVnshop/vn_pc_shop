@@ -1,0 +1,73 @@
+body{
+  width:100%;
+  height:100%;
+  background: url(../images/2.jpg) no-repeat;
+  background-size: cover;
+}
+header{
+  height: 100px;
+  width: 100%;
+}
+section{
+  width: 100%;
+  width: 100%;
+  position: relative;
+}
+section .registerInfo{
+  /* float:right;
+  margin-right:10%; */
+  position: absolute;
+  right:10%;
+  /* top:20%; */
+  background:transparent;
+}
+section .registerInfo>div{
+  width: 398px;
+  height: 80px;
+  margin: 0 auto;
+}
+section .registerInfo div>div{
+  border:1px solid #000;
+  height: 50px;
+}
+section .registerInfo div>div>span{
+  display: inline-block;
+  width: 122px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  /* float: left; */
+  color:lightskyblue;
+}
+section .registerInfo div>div>input{
+  padding:25px 15px;
+  border: 0;
+  outline: none;
+  width:273px;
+  box-sizing: border-box;
+  height:16px;
+  opacity:0.8;
+}
+section .registerInfo div label{
+  font-size:16px;
+  color: #CFC8D5
+}
+.registerBtn{
+  width:100px;
+  height:50px;
+  font-size:18px;
+  background: #000;
+  color:#fff;
+  border:none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 40%;
+}
+.had_userId{
+  display: inline;
+  color: #fff;
+}
+.had_userId a{
+  color:#38f;
+}

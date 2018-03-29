@@ -1,0 +1,11 @@
+/* #page{
+    width:1050px;  
+    height:100%; 
+    margin:0 auto;
+}
+#page li{
+    float:left;
+}
+#page:last{
+    float:right
+} */
